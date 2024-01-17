@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    border: 2px solid black;
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 20px;
+}

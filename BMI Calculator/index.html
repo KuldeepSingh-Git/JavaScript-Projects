@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main" id="main">
+        <div class="message-box nonedisplay">
+            <div id="message" class="message">
+                <h1 class="yourBMI">Your BMI is:</h1>
+                <p id="result"></p>
+                <button class="hidemsg" onclick="hidemsg()">Ok</button>
+            </div>
+        </div>
+        <h1 class="heading">Body Mass Index</h1>
+        <div class="container">
+            <div class="input-boxes">
+                <div class="content">
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <input id="age" type="number" name="age" placeholder="Age">
+                    <input id="height" type="number" name="height" placeholder="Height in cm">
+                    <input id="weight" type="number" name="weight" placeholder="Weight in kg">
+                    <button id="btn" class="btn" onclick="calculateBMI()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
